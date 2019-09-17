@@ -14,7 +14,7 @@ class TestShape extends FunSuite {
   }
 
   test("Illegal Group") {
-    intercept[IllegalArgumentException](new Group(null))
+    intercept[IllegalArgumentException](new Group(null: _*))
   }
 
   test("Illegal Location") {
