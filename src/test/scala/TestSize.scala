@@ -5,7 +5,7 @@ import org.scalatest.FunSuite
 import TestFixtures._
 
 class TestSize extends FunSuite {
-  def testSize(description: String, s: Shape, x: Int) = {
+  def testSize(description: String, s: ShapeF, x: Int) = {
     test(description) {
       val y = size(s)
       assert(x === y)

@@ -6,7 +6,7 @@ import TestFixtures._
 
 class TestBoundingBox extends FunSuite {
 
-  def testBoundingBox(description: String, s: Shape, x: Int, y: Int, width: Int, height: Int) = {
+  def testBoundingBox(description: String, s: ShapeF, x: Int, y: Int, width: Int, height: Int) = {
     test(description) {
       val Location(u, v, Rectangle(w, h)) = boundingBox(s)
       assert(x === u)

@@ -6,7 +6,7 @@ import TestFixtures._
 
 class TestScale extends FunSuite {
 
-  def testScale(description: String, s: Shape, factor: Int, sc: Shape) = {
+  def testScale(description: String, s: ShapeF, factor: Int, sc: ShapeF) = {
     test(description) {
       val originalShape = scale(s, factor)
       assert(originalShape === sc)

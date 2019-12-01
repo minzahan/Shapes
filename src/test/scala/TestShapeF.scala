@@ -2,7 +2,7 @@ package edu.luc.cs.laufer.cs372.shapes
 
 import org.scalatest.FunSuite
 
-class TestShape extends FunSuite {
+class TestShapeF extends FunSuite {
 
   test("Illegal Rectangle") {
     intercept[IllegalArgumentException](new Rectangle(-20, -40))

@@ -6,7 +6,7 @@ import TestFixtures._
 
 class TestHeight extends FunSuite {
 
-  def testHeight(description: String, s: Shape, x: Int) = {
+  def testHeight(description: String, s: ShapeF, x: Int) = {
     test(description) {
       val y = height(s)
       assert(x === y)
